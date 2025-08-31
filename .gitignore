@@ -1,1 +1,25 @@
-node_modules/
+# --- Backend (Spring Boot / Maven) ---
+/target/
+*.jar
+*.war
+*.ear
+
+# --- Frontend (React) ---
+/node_modules/
+/build/
+/dist/
+
+# --- IDE files ---
+/.idea/
+/*.iml
+/.classpath
+/.project
+/.settings/
+.vscode/
+
+# --- Logs ---
+*.log
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
